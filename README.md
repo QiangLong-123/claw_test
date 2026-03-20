@@ -1,41 +1,50 @@
-# OpenClaw Test Task
+# OpenClaw Test Project
 
-This repository is a simple test project built using OpenClaw. It demonstrates the basic workflow of using OpenClaw for:
+A simple test project built using OpenClaw to demonstrate the basic workflow of using OpenClaw for repository creation, code generation, and version control operations.
 
-- Repository creation
-- Code generation
-- Version control operations (commit, updates, etc.)
+## 🎯 Purpose
 
-## 📌 Purpose
-
-The goal of this project is to validate and showcase how OpenClaw can be used in a real development workflow, including:
-
+This project validates and showcases how OpenClaw can be used in a real development workflow:
 - Automating repository setup
 - Assisting with code writing
 - Managing commits and changes
 
-## ⚙️ Features
+## 🧩 Features
 
 - Minimal and clean project structure
 - Demonstrates OpenClaw-driven development process
 - Easy to understand and extend
+- Implements Consistent Hashing with Virtual Nodes
 
 ## 🚀 Getting Started
 
-Clone the repository:
-
-\git clone https://github.com/QiangLong-123/claw_test.git
+```bash
+git clone https://github.com/QiangLong-123/claw_test.git
 cd claw_test
-\
-## 🧪 Usage
+```
 
-This project is intended for testing and demonstration purposes. You can modify the code, make commits, and experiment with OpenClaw workflows.
+## ⚙️ Build
 
-## 📖 Notes
+```bash
+mvn clean compile
+```
 
-- This is not a production-ready project
-- Designed purely for experimentation and learning
-- Structure and content may evolve as testing continues
+## 🧪 Run Tests
+
+```bash
+mvn test
+```
+
+## 📂 Project Structure
+
+```
+src/main/java/com/openclaw/hashtable/
+├── ConsistentHashingTest.java      # Test class
+├── ConsistentHashingWithVirtualNodes.java  # Main implementation
+├── LoadInfo.java                   # Load information
+├── PhysicalNode.java               # Physical node representation
+└── VirtualNode.java                # Virtual node for hashing
+```
 
 ## 📝 License
 
